@@ -1,4 +1,4 @@
-<img src="https://i.imgur.com/be0EyGO.jpg">
+<img src="https://i.imgur.com/be0EyGO.jpg" width="50%">
 
 # WinnyPicky
 
