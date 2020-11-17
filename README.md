@@ -1,3 +1,5 @@
+<img src="https://i.imgur.com/be0EyGO.jpg">
+
 # WinnyPicky
 
 Small iPhone app that powered the Apollo 2020 iPhone 12 giveaway. Slightly more fun than just a script because you can carry it around the house while it runs (since it takes awhile).
