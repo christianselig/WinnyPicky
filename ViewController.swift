@@ -52,9 +52,9 @@ class ViewController: UIViewController {
 
     func decideWinner() {
         // PushShift has a 100 item per request limit
-        let fetchLimit: Int = 100
+        let fetchLimit: Int = 250
         
-        let threadIDs: [String] = ["juv6tu", "juzv2f", "jv6f78"]
+        let threadIDs: [String] = ["xtsjm6", "xu8zct"]
         startTime = CFAbsoluteTimeGetCurrent()
         let dispatchQueue = DispatchQueue(label: "WinnerQueue")
         var totalLoopsFinished = 0
@@ -67,7 +67,7 @@ class ViewController: UIViewController {
                 var loops: Int = 0
                 
                 while true {
-                    let apiURL = URL(string: "https://api.pushshift.io/reddit/comment/search?link_id=\(threadID)&size=\(fetchLimit)&sort=asc&sort_type=new&after=\(time)&fields=id,author,created_utc")!
+                    let apiURL = URL(string: "https://api.pushshift.io/reddit/comment/search/?link_id=\(threadID)&limit=\(fetchLimit)&q=*&after=\(time)&fields=id,author,created_utc")!
                     
                     guard let data = try? Data(contentsOf: apiURL) else {
                         // Will retry
