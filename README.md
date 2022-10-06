@@ -2,7 +2,7 @@
 
 # WinnyPicky
 
-Small iPhone app that powered the Apollo 2020 iPhone 12 giveaway. Slightly more fun than just a script because you can carry it around the house while it runs (since it takes awhile).
+Small iPhone app that powered the Apollo 2020 iPhone 12 giveaway and the 2022 iPhone 14 Pro giveaway. Slightly more fun than just a script because you can carry it around the house while it runs (since it takes awhile).
 
 At a basic level it takes giveaway threads as input, spins up separate threads to collect all the comments from each (updating the progress to the screen), and once collected removes any users who commented multiple times, then draws a random comment from the resulting collection and outputs the result to the screen.
 
